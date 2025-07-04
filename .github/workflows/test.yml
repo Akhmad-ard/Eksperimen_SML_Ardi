@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Step 1 - Print Hello
-      run: echo "Hello, World!"
-      
-    - name: Step 2 - Print Working Directory
-      run: pwd
-      
-    - name: Step 3 - List Files
-      run: ls -lah
+      - name: Step 1 - Print Hello
+        run: echo "Hello, World!"
+        
+      - name: Step 2 - Print Working Directory
+        run: pwd
+        
+      - name: Step 3 - List Files
+        run: ls -lah
