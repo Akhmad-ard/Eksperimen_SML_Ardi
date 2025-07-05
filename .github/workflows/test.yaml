@@ -3,7 +3,7 @@ name: Debug Workflow
 on: workflow_dispatch
 jobs:
   debug-job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Hello from
         run: echo "Runner sedang berjalan dengan baik ✅"
