@@ -20,6 +20,10 @@ jobs:
         # Aman: install hanya paket pip valid
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+    - name: Check Directory
+      run: |
+        ls -l
+
     - name: Run Preprocessing Data
       run: |
         cd preprocessing
