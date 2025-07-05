@@ -1,8 +1,6 @@
 name: Debug Workflow
-
 on:
   workflow_dispatch
-
 jobs:
   debug-job:
     runs-on: self-hosted
