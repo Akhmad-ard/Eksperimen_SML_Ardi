@@ -36,7 +36,7 @@ jobs:
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
-        git add Predict_Student_Performance_preprocessing/*
+        git add preprocessing/Predict_Student_Performance_preprocessing/*
         git commit -m "chore: update preprocessed train/test data"
         git push
       continue-on-error: true
