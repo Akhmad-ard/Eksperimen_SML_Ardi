@@ -3,7 +3,7 @@ name: Debug Workflow
 on: workflow_dispatch
 jobs:
   debug-job:
-    runs-on: self-hosted
+    runs-on: windows-latest
     steps:
-      - name: Hello from Self-hosted Runner
+      - name: Hello from
         run: echo "Runner sedang berjalan dengan baik ✅"
